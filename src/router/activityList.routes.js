@@ -5,8 +5,8 @@ import PageTow from '../pages/activityList/pageTow.js'
 const rules = {
     path: "activityList",
     title: "活动页面",
-    component: <div></div>,
-    exact: true,
+    // component: <div></div>,
+    // exact: true,
     children: [
         {
             path: "pageOne",

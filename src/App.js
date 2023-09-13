@@ -5,14 +5,11 @@ import { Navigate } from "react-router-dom";
 import rules from './router/index.js';
 const routes = [
   {
-    path: '/sub-react',
+    path: '/',
     element: <LayoutApp />,
     children: rules
   },
-  {
-    path: '/',
-    element: <Navigate to='/sub-react' />,
-  },
+
   {
     path: '/*',
     element: <Navigate to='/' />,
